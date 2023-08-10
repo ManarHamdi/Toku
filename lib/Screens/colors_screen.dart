@@ -20,7 +20,7 @@ class ColorsScreen extends StatelessWidget{
         children: [
           Expanded(
             child: ListView.builder(
-                itemCount: 10,
+                itemCount: 8,
                 itemBuilder: (context,index)=>
                     ColorListItem(imagePath: ColorModel.imagePath[index],
                         color: ColorModel.color[index],
