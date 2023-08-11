@@ -9,7 +9,7 @@ class ColorsScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return
       Scaffold(
-        appBar: AppBar(title: const Text("Numbers"),backgroundColor: const Color(0xff543D36)),
+        appBar: AppBar(title: const Text("Colors"),backgroundColor: const Color(0xff543D36)),
         body:       colorListView()
         ,
       );

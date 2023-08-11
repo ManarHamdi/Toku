@@ -9,7 +9,7 @@ class FamilyScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(title: const Text("Numbers"),backgroundColor: const Color(0xff543D36)) ,
+      appBar:AppBar(title: const Text("Family"),backgroundColor: const Color(0xff543D36)) ,
       body: familyListView(),
     );
   }
